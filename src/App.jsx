@@ -1,16 +1,20 @@
 
+
 import './App.css'
+import Search from './Components/Search';
+import Result from './Components/Result';
 
 function App() {
  
 
   return (
-    <>
+    <div className='max-w-[1280px] mx-auto mt-2 p-3'>
      
-        
-      <h1>Weather Now App</h1>
+        <Search/>
+       <Result/>
       
-    </>
+      
+    </div>
   )
 }
 
